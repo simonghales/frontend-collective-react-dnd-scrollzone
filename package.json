@@ -12,7 +12,8 @@
     "publish:major": "npm version major && npm publish",
     "publish:minor": "npm version minor && npm publish",
     "publish:patch": "npm version patch && npm publish",
-    "postpublish": "git push origin master --tags"
+    "postpublish": "git push origin master --tags",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
